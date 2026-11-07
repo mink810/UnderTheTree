@@ -24,6 +24,12 @@
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "후기 사진 첨부를 위해 사진 라이브러리 접근이 필요합니다."
+        }
+      ],
       "expo-router",
       [
         "expo-splash-screen",

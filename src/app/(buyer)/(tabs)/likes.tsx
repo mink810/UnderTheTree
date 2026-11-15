@@ -1,5 +1,5 @@
-import LikesScreen from '@/features/favorites/screens/LikesScreen';
+import BUY006Screen from '@/features/favorites/screens/BUY006Screen';
 
 export default function LikesRoute() {
-  return <LikesScreen />;
+  return <BUY006Screen />;
 }

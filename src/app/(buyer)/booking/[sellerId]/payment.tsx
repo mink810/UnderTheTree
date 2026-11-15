@@ -1,5 +1,5 @@
-import BookingPaymentScreen from '@/features/booking/screens/BookingPaymentScreen';
+import BUY012Screen from '@/features/booking/screens/BUY012Screen';
 
 export default function PaymentRoute() {
-  return <BookingPaymentScreen />;
+  return <BUY012Screen />;
 }

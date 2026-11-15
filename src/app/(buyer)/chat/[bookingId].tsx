@@ -1,5 +1,5 @@
-import BookingChatScreen from '@/features/chat/screens/BookingChatScreen';
+import BUY022Screen from '@/features/chat/screens/BUY022Screen';
 
 export default function BookingIdRoute() {
-  return <BookingChatScreen />;
+  return <BUY022Screen />;
 }

@@ -1,0 +1,417 @@
+{
+  "apiRoutes": [],
+  "htmlRoutes": [
+    {
+      "file": "./seller-onboarding/index.tsx",
+      "page": "/seller-onboarding/index",
+      "namedRegex": "^/seller\\-onboarding(?:/)?$",
+      "routeKeys": {},
+      "assets": {
+        "css": [],
+        "js": [
+          "/_expo/static/js/web/_layout-070465347cf5d2bee1dd07069e93bfaf.js",
+          "/_expo/static/js/web/_layout-e09e72e2e93c6bff33dd893cddebb054.js",
+          "/_expo/static/js/web/index-4bab922dd97983a9bcbde14c7a909eda.js"
+        ]
+      }
+    },
+    {
+      "file": "./index.tsx",
+      "page": "/index",
+      "namedRegex": "^/(?:/)?$",
+      "routeKeys": {},
+      "assets": {
+        "css": [],
+        "js": [
+          "/_expo/static/js/web/_layout-070465347cf5d2bee1dd07069e93bfaf.js",
+          "/_expo/static/js/web/index-46d85241b008abb8df8c347010db4df9.js"
+        ]
+      }
+    },
+    {
+      "file": "./(buyer)/(tabs)/my.tsx",
+      "page": "/(buyer)/(tabs)/my",
+      "namedRegex": "^(?:/\\(buyer\\))?(?:/\\(tabs\\))?/my(?:/)?$",
+      "routeKeys": {},
+      "assets": {
+        "css": [],
+        "js": [
+          "/_expo/static/js/web/_layout-070465347cf5d2bee1dd07069e93bfaf.js",
+          "/_expo/static/js/web/_layout-4d3d4fca30763fd7fa6647dc6cea0aec.js",
+          "/_expo/static/js/web/_layout-152ec6bf1e10acd8276b2b65e9586c97.js",
+          "/_expo/static/js/web/my-e9142113d20b833dd1d92d84ebe225f0.js"
+        ]
+      }
+    },
+    {
+      "file": "./(buyer)/(tabs)/home.tsx",
+      "page": "/(buyer)/(tabs)/home",
+      "namedRegex": "^(?:/\\(buyer\\))?(?:/\\(tabs\\))?/home(?:/)?$",
+      "routeKeys": {},
+      "assets": {
+        "css": [],
+        "js": [
+          "/_expo/static/js/web/_layout-070465347cf5d2bee1dd07069e93bfaf.js",
+          "/_expo/static/js/web/_layout-4d3d4fca30763fd7fa6647dc6cea0aec.js",
+          "/_expo/static/js/web/_layout-152ec6bf1e10acd8276b2b65e9586c97.js",
+          "/_expo/static/js/web/home-733b22274006e440db925bb741f05663.js"
+        ]
+      }
+    },
+    {
+      "file": "./(buyer)/(tabs)/likes.tsx",
+      "page": "/(buyer)/(tabs)/likes",
+      "namedRegex": "^(?:/\\(buyer\\))?(?:/\\(tabs\\))?/likes(?:/)?$",
+      "routeKeys": {},
+      "assets": {
+        "css": [],
+        "js": [
+          "/_expo/static/js/web/_layout-070465347cf5d2bee1dd07069e93bfaf.js",
+          "/_expo/static/js/web/_layout-4d3d4fca30763fd7fa6647dc6cea0aec.js",
+          "/_expo/static/js/web/_layout-152ec6bf1e10acd8276b2b65e9586c97.js",
+          "/_expo/static/js/web/likes-8b8bab6c2ec8fc5646c8d125f6ba2ed5.js"
+        ]
+      }
+    },
+    {
+      "file": "./(buyer)/(tabs)/chats.tsx",
+      "page": "/(buyer)/(tabs)/chats",
+      "namedRegex": "^(?:/\\(buyer\\))?(?:/\\(tabs\\))?/chats(?:/)?$",
+      "routeKeys": {},
+      "assets": {
+        "css": [],
+        "js": [
+          "/_expo/static/js/web/_layout-070465347cf5d2bee1dd07069e93bfaf.js",
+          "/_expo/static/js/web/_layout-4d3d4fca30763fd7fa6647dc6cea0aec.js",
+          "/_expo/static/js/web/_layout-152ec6bf1e10acd8276b2b65e9586c97.js",
+          "/_expo/static/js/web/chats-d8e80844ef2c61be029875470623b492.js"
+        ]
+      }
+    },
+    {
+      "file": "./seller-onboarding/status.tsx",
+      "page": "/seller-onboarding/status",
+      "namedRegex": "^/seller\\-onboarding/status(?:/)?$",
+      "routeKeys": {},
+      "assets": {
+        "css": [],
+        "js": [
+          "/_expo/static/js/web/_layout-070465347cf5d2bee1dd07069e93bfaf.js",
+          "/_expo/static/js/web/_layout-e09e72e2e93c6bff33dd893cddebb054.js",
+          "/_expo/static/js/web/status-006c601ef9537fc67f8e50cdabcfd6d6.js"
+        ]
+      }
+    },
+    {
+      "file": "./seller-onboarding/profile.tsx",
+      "page": "/seller-onboarding/profile",
+      "namedRegex": "^/seller\\-onboarding/profile(?:/)?$",
+      "routeKeys": {},
+      "assets": {
+        "css": [],
+        "js": [
+          "/_expo/static/js/web/_layout-070465347cf5d2bee1dd07069e93bfaf.js",
+          "/_expo/static/js/web/_layout-e09e72e2e93c6bff33dd893cddebb054.js",
+          "/_expo/static/js/web/profile-70a688be880bf5f232c9528effc10c87.js"
+        ]
+      }
+    },
+    {
+      "file": "./seller-onboarding/complete.tsx",
+      "page": "/seller-onboarding/complete",
+      "namedRegex": "^/seller\\-onboarding/complete(?:/)?$",
+      "routeKeys": {},
+      "assets": {
+        "css": [],
+        "js": [
+          "/_expo/static/js/web/_layout-070465347cf5d2bee1dd07069e93bfaf.js",
+          "/_expo/static/js/web/_layout-e09e72e2e93c6bff33dd893cddebb054.js",
+          "/_expo/static/js/web/complete-517e7023a2e47fe8a293bddd852f8780.js"
+        ]
+      }
+    },
+    {
+      "file": "expo-router/build/views/Sitemap.js",
+      "page": "/_sitemap",
+      "namedRegex": "^/_sitemap(?:/)?$",
+      "routeKeys": {},
+      "generated": true,
+      "assets": {
+        "css": [],
+        "js": [
+          "/_expo/static/js/web/_layout-070465347cf5d2bee1dd07069e93bfaf.js"
+        ]
+      }
+    },
+    {
+      "file": "./seller-onboarding/application.tsx",
+      "page": "/seller-onboarding/application",
+      "namedRegex": "^/seller\\-onboarding/application(?:/)?$",
+      "routeKeys": {},
+      "assets": {
+        "css": [],
+        "js": [
+          "/_expo/static/js/web/_layout-070465347cf5d2bee1dd07069e93bfaf.js",
+          "/_expo/static/js/web/_layout-e09e72e2e93c6bff33dd893cddebb054.js",
+          "/_expo/static/js/web/application-b778977e82105e74c43d55e17a71ae51.js"
+        ]
+      }
+    },
+    {
+      "file": "./seller-onboarding/verification.tsx",
+      "page": "/seller-onboarding/verification",
+      "namedRegex": "^/seller\\-onboarding/verification(?:/)?$",
+      "routeKeys": {},
+      "assets": {
+        "css": [],
+        "js": [
+          "/_expo/static/js/web/_layout-070465347cf5d2bee1dd07069e93bfaf.js",
+          "/_expo/static/js/web/_layout-e09e72e2e93c6bff33dd893cddebb054.js",
+          "/_expo/static/js/web/verification-b6d9e1b0aa1f425510a4e9f79266cf02.js"
+        ]
+      }
+    },
+    {
+      "file": "./(buyer)/reviews/index.tsx",
+      "page": "/(buyer)/reviews/index",
+      "namedRegex": "^(?:/\\(buyer\\))?/reviews(?:/)?$",
+      "routeKeys": {},
+      "assets": {
+        "css": [],
+        "js": [
+          "/_expo/static/js/web/_layout-070465347cf5d2bee1dd07069e93bfaf.js",
+          "/_expo/static/js/web/_layout-4d3d4fca30763fd7fa6647dc6cea0aec.js",
+          "/_expo/static/js/web/index-5bd202147e4e288f9faba67e22a2f5d6.js"
+        ]
+      }
+    },
+    {
+      "file": "./(buyer)/reservations/index.tsx",
+      "page": "/(buyer)/reservations/index",
+      "namedRegex": "^(?:/\\(buyer\\))?/reservations(?:/)?$",
+      "routeKeys": {},
+      "assets": {
+        "css": [],
+        "js": [
+          "/_expo/static/js/web/_layout-070465347cf5d2bee1dd07069e93bfaf.js",
+          "/_expo/static/js/web/_layout-4d3d4fca30763fd7fa6647dc6cea0aec.js",
+          "/_expo/static/js/web/index-22df3374d5e4d389c371305fbaa5a1e9.js"
+        ]
+      }
+    },
+    {
+      "file": "./(buyer)/notifications/index.tsx",
+      "page": "/(buyer)/notifications/index",
+      "namedRegex": "^(?:/\\(buyer\\))?/notifications(?:/)?$",
+      "routeKeys": {},
+      "assets": {
+        "css": [],
+        "js": [
+          "/_expo/static/js/web/_layout-070465347cf5d2bee1dd07069e93bfaf.js",
+          "/_expo/static/js/web/_layout-4d3d4fca30763fd7fa6647dc6cea0aec.js",
+          "/_expo/static/js/web/index-38ff021134602e55f91519f2945e1fb7.js"
+        ]
+      }
+    },
+    {
+      "file": "./seller-onboarding/additional-verification.tsx",
+      "page": "/seller-onboarding/additional-verification",
+      "namedRegex": "^/seller\\-onboarding/additional\\-verification(?:/)?$",
+      "routeKeys": {},
+      "assets": {
+        "css": [],
+        "js": [
+          "/_expo/static/js/web/_layout-070465347cf5d2bee1dd07069e93bfaf.js",
+          "/_expo/static/js/web/_layout-e09e72e2e93c6bff33dd893cddebb054.js",
+          "/_expo/static/js/web/additional-verification-a4ea840c87fb97e6c0722505b02396fc.js"
+        ]
+      }
+    },
+    {
+      "file": "./(buyer)/seller/[sellerId].tsx",
+      "page": "/(buyer)/seller/[sellerId]",
+      "namedRegex": "^(?:/\\(buyer\\))?/seller/(?<sellerId>[^/]+?)(?:/)?$",
+      "routeKeys": {
+        "sellerId": "sellerId"
+      },
+      "assets": {
+        "css": [],
+        "js": [
+          "/_expo/static/js/web/_layout-070465347cf5d2bee1dd07069e93bfaf.js",
+          "/_expo/static/js/web/_layout-4d3d4fca30763fd7fa6647dc6cea0aec.js",
+          "/_expo/static/js/web/[sellerId]-7c5c822b92b3294313665267d14b38e3.js"
+        ]
+      }
+    },
+    {
+      "file": "./(buyer)/review/[bookingId].tsx",
+      "page": "/(buyer)/review/[bookingId]",
+      "namedRegex": "^(?:/\\(buyer\\))?/review/(?<bookingId>[^/]+?)(?:/)?$",
+      "routeKeys": {
+        "bookingId": "bookingId"
+      },
+      "assets": {
+        "css": [],
+        "js": [
+          "/_expo/static/js/web/_layout-070465347cf5d2bee1dd07069e93bfaf.js",
+          "/_expo/static/js/web/_layout-4d3d4fca30763fd7fa6647dc6cea0aec.js",
+          "/_expo/static/js/web/[bookingId]-0991443677b7ed39563ac95b7a283caf.js"
+        ]
+      }
+    },
+    {
+      "file": "./(buyer)/reservation/[bookingId].tsx",
+      "page": "/(buyer)/reservation/[bookingId]",
+      "namedRegex": "^(?:/\\(buyer\\))?/reservation/(?<bookingId>[^/]+?)(?:/)?$",
+      "routeKeys": {
+        "bookingId": "bookingId"
+      },
+      "assets": {
+        "css": [],
+        "js": [
+          "/_expo/static/js/web/_layout-070465347cf5d2bee1dd07069e93bfaf.js",
+          "/_expo/static/js/web/_layout-4d3d4fca30763fd7fa6647dc6cea0aec.js",
+          "/_expo/static/js/web/[bookingId]-ed05edb646a5debaf1c524ec7d0508fd.js"
+        ]
+      }
+    },
+    {
+      "file": "./(buyer)/notifications/[notificationId].tsx",
+      "page": "/(buyer)/notifications/[notificationId]",
+      "namedRegex": "^(?:/\\(buyer\\))?/notifications/(?<notificationId>[^/]+?)(?:/)?$",
+      "routeKeys": {
+        "notificationId": "notificationId"
+      },
+      "assets": {
+        "css": [],
+        "js": [
+          "/_expo/static/js/web/_layout-070465347cf5d2bee1dd07069e93bfaf.js",
+          "/_expo/static/js/web/_layout-4d3d4fca30763fd7fa6647dc6cea0aec.js",
+          "/_expo/static/js/web/[notificationId]-4e093b41c41133af9c79eff60e0df09b.js"
+        ]
+      }
+    },
+    {
+      "file": "./(buyer)/chat/[bookingId].tsx",
+      "page": "/(buyer)/chat/[bookingId]",
+      "namedRegex": "^(?:/\\(buyer\\))?/chat/(?<bookingId>[^/]+?)(?:/)?$",
+      "routeKeys": {
+        "bookingId": "bookingId"
+      },
+      "assets": {
+        "css": [],
+        "js": [
+          "/_expo/static/js/web/_layout-070465347cf5d2bee1dd07069e93bfaf.js",
+          "/_expo/static/js/web/_layout-4d3d4fca30763fd7fa6647dc6cea0aec.js",
+          "/_expo/static/js/web/[bookingId]-2806b8aba4a287f5d488463ac31f1eb4.js"
+        ]
+      }
+    },
+    {
+      "file": "./(buyer)/booking/[sellerId]/product-select.tsx",
+      "page": "/(buyer)/booking/[sellerId]/product-select",
+      "namedRegex": "^(?:/\\(buyer\\))?/booking/(?<sellerId>[^/]+?)/product\\-select(?:/)?$",
+      "routeKeys": {
+        "sellerId": "sellerId"
+      },
+      "assets": {
+        "css": [],
+        "js": [
+          "/_expo/static/js/web/_layout-070465347cf5d2bee1dd07069e93bfaf.js",
+          "/_expo/static/js/web/_layout-4d3d4fca30763fd7fa6647dc6cea0aec.js",
+          "/_expo/static/js/web/product-select-b5bff11734c60f2ac2664303a35cb540.js"
+        ]
+      }
+    },
+    {
+      "file": "./(buyer)/booking/[sellerId]/payment.tsx",
+      "page": "/(buyer)/booking/[sellerId]/payment",
+      "namedRegex": "^(?:/\\(buyer\\))?/booking/(?<sellerId>[^/]+?)/payment(?:/)?$",
+      "routeKeys": {
+        "sellerId": "sellerId"
+      },
+      "assets": {
+        "css": [],
+        "js": [
+          "/_expo/static/js/web/_layout-070465347cf5d2bee1dd07069e93bfaf.js",
+          "/_expo/static/js/web/_layout-4d3d4fca30763fd7fa6647dc6cea0aec.js",
+          "/_expo/static/js/web/payment-921aa5152f441bc953a2683076570b2b.js"
+        ]
+      }
+    },
+    {
+      "file": "./(buyer)/booking/[sellerId]/confirm.tsx",
+      "page": "/(buyer)/booking/[sellerId]/confirm",
+      "namedRegex": "^(?:/\\(buyer\\))?/booking/(?<sellerId>[^/]+?)/confirm(?:/)?$",
+      "routeKeys": {
+        "sellerId": "sellerId"
+      },
+      "assets": {
+        "css": [],
+        "js": [
+          "/_expo/static/js/web/_layout-070465347cf5d2bee1dd07069e93bfaf.js",
+          "/_expo/static/js/web/_layout-4d3d4fca30763fd7fa6647dc6cea0aec.js",
+          "/_expo/static/js/web/confirm-b1028644c613ab0290a0be13f90bbc72.js"
+        ]
+      }
+    },
+    {
+      "file": "./(buyer)/booking/[sellerId]/complete.tsx",
+      "page": "/(buyer)/booking/[sellerId]/complete",
+      "namedRegex": "^(?:/\\(buyer\\))?/booking/(?<sellerId>[^/]+?)/complete(?:/)?$",
+      "routeKeys": {
+        "sellerId": "sellerId"
+      },
+      "assets": {
+        "css": [],
+        "js": [
+          "/_expo/static/js/web/_layout-070465347cf5d2bee1dd07069e93bfaf.js",
+          "/_expo/static/js/web/_layout-4d3d4fca30763fd7fa6647dc6cea0aec.js",
+          "/_expo/static/js/web/complete-edd7e8c224cfdb2a9251bcc69f5aba4e.js"
+        ]
+      }
+    },
+    {
+      "file": "./(buyer)/booking/[sellerId]/calendar.tsx",
+      "page": "/(buyer)/booking/[sellerId]/calendar",
+      "namedRegex": "^(?:/\\(buyer\\))?/booking/(?<sellerId>[^/]+?)/calendar(?:/)?$",
+      "routeKeys": {
+        "sellerId": "sellerId"
+      },
+      "assets": {
+        "css": [],
+        "js": [
+          "/_expo/static/js/web/_layout-070465347cf5d2bee1dd07069e93bfaf.js",
+          "/_expo/static/js/web/_layout-4d3d4fca30763fd7fa6647dc6cea0aec.js",
+          "/_expo/static/js/web/calendar-1eb118adcb23a7f4f17f1faff29d423c.js"
+        ]
+      }
+    }
+  ],
+  "notFoundRoutes": [
+    {
+      "file": "expo-router/build/views/Unmatched.js",
+      "page": "/+not-found",
+      "namedRegex": "^(?:/(?<notfound>.+?))?(?:/)?$",
+      "routeKeys": {
+        "notfound": "not-found"
+      },
+      "generated": true
+    }
+  ],
+  "redirects": [],
+  "rewrites": [],
+  "assets": {
+    "css": [],
+    "js": [
+      "/_expo/static/js/web/__expo-metro-runtime-9f1a7b6acd20011e290bc79f0164ae37.js",
+      "/_expo/static/js/web/__common-ffa11a83eda6f5323086045eadd7ec77.js",
+      "/_expo/static/js/web/entry-050df618c9b0aabb9a7a647dbf671707.js"
+    ],
+    "favicon": "/favicon.ico"
+  },
+  "rendering": {
+    "mode": "ssr",
+    "file": "_expo/server/render.js"
+  }
+}

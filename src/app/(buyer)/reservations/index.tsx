@@ -1,5 +1,5 @@
-import ReservationsListScreen from '@/features/booking/screens/ReservationsListScreen';
+import BUY015Screen from '@/features/booking/screens/BUY015Screen';
 
 export default function IndexRoute() {
-  return <ReservationsListScreen />;
+  return <BUY015Screen />;
 }

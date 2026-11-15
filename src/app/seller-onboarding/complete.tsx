@@ -1,5 +1,5 @@
-import SellerActivationScreen from '@/features/seller-onboarding/screens/SellerActivationScreen';
+import SELL007Screen from '@/features/seller-onboarding/screens/SELL007Screen';
 
 export default function SellerOnboardingCompleteRoute() {
-  return <SellerActivationScreen />;
+  return <SELL007Screen />;
 }

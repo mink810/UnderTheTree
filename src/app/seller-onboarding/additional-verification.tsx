@@ -1,10 +1,5 @@
-import SellerOnboardingStubScreen from '@/features/seller-onboarding/screens/SellerOnboardingStubScreen';
+import SELL006Screen from '@/features/seller-onboarding/screens/SELL006Screen';
 
 export default function SellerOnboardingAdditionalVerificationRoute() {
-  return (
-    <SellerOnboardingStubScreen
-      screenId="SELL-005"
-      title="추가 인증"
-    />
-  );
+  return <SELL006Screen />;
 }

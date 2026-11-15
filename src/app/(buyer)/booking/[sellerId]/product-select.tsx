@@ -1,5 +1,5 @@
-import ProductSelectScreen from '@/features/booking/screens/ProductSelectScreen';
+import BUY007Screen from '@/features/booking/screens/BUY007Screen';
 
 export default function ProductSelectRoute() {
-  return <ProductSelectScreen />;
+  return <BUY007Screen />;
 }

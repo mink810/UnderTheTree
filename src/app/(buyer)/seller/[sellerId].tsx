@@ -1,5 +1,5 @@
-import SellerProfileScreen from '@/features/seller/screens/SellerProfileScreen';
+import BUY003Screen from '@/features/seller/screens/BUY003Screen';
 
 export default function SellerIdRoute() {
-  return <SellerProfileScreen />;
+  return <BUY003Screen />;
 }

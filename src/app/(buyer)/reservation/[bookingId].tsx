@@ -1,5 +1,5 @@
-import ReservationDetailScreen from '@/features/booking/screens/ReservationDetailScreen';
+import BUY016Screen from '@/features/booking/screens/BUY016Screen';
 
 export default function BookingIdRoute() {
-  return <ReservationDetailScreen />;
+  return <BUY016Screen />;
 }

@@ -1,5 +1,5 @@
-import BookingCalendarScreen from '@/features/booking/screens/BookingCalendarScreen';
+import BUY009Screen from '@/features/booking/screens/BUY009Screen';
 
 export default function CalendarRoute() {
-  return <BookingCalendarScreen />;
+  return <BUY009Screen />;
 }

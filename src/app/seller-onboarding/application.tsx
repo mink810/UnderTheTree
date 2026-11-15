@@ -1,5 +1,5 @@
-import SellerApplicationScreen from '@/features/seller-onboarding/screens/SellerApplicationScreen';
+import SELL004Screen from '@/features/seller-onboarding/screens/SELL004Screen';
 
 export default function SellerOnboardingApplicationRoute() {
-  return <SellerApplicationScreen />;
+  return <SELL004Screen />;
 }

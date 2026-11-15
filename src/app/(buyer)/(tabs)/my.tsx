@@ -1,5 +1,5 @@
-import MyScreen from '@/features/account/screens/MyScreen';
+import SELL008Screen from '@/features/seller/screens/SELL008Screen';
 
 export default function MyRoute() {
-  return <MyScreen />;
+  return <SELL008Screen />;
 }

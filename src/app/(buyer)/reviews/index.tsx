@@ -1,5 +1,5 @@
-import MyReviewsScreen from '@/features/review/screens/MyReviewsScreen';
+import BUY024Screen from '@/features/review/screens/BUY024Screen';
 
 export default function IndexRoute() {
-  return <MyReviewsScreen />;
+  return <BUY024Screen />;
 }

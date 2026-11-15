@@ -1,5 +1,5 @@
-import SellerOnboardingProfileScreen from '@/features/seller-onboarding/screens/SellerProfileScreen';
+import SELL002Screen from '@/features/seller-onboarding/screens/SELL002Screen';
 
 export default function SellerOnboardingProfileRoute() {
-  return <SellerOnboardingProfileScreen />;
+  return <SELL002Screen />;
 }

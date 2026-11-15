@@ -1,5 +1,5 @@
-import ChatsScreen from '@/features/chat/screens/ChatsScreen';
+import BUY021Screen from '@/features/chat/screens/BUY021Screen';
 
 export default function ChatsRoute() {
-  return <ChatsScreen />;
+  return <BUY021Screen />;
 }

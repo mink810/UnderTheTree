@@ -1,5 +1,5 @@
-import SellerVerificationScreen from '@/features/seller-onboarding/screens/SellerVerificationScreen';
+import SELL003Screen from '@/features/seller-onboarding/screens/SELL003Screen';
 
 export default function SellerOnboardingVerificationRoute() {
-  return <SellerVerificationScreen />;
+  return <SELL003Screen />;
 }

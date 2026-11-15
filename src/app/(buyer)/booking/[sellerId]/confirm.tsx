@@ -1,5 +1,5 @@
-import BookingConfirmScreen from '@/features/booking/screens/BookingConfirmScreen';
+import BUY010Screen from '@/features/booking/screens/BUY010Screen';
 
 export default function ConfirmRoute() {
-  return <BookingConfirmScreen />;
+  return <BUY010Screen />;
 }

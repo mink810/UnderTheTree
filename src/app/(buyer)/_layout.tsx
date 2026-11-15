@@ -1,10 +1,12 @@
 import { Stack } from 'expo-router';
+import BuyerAuthGate from '@/features/auth/components/BuyerAuthGate';
 import { FavoritesProvider } from '../../features/favorites/FavoritesContext';
 
 export default function BuyerLayout() {
   return (
-    <FavoritesProvider>
-      <Stack screenOptions={{ headerShown: false }}>
+    <BuyerAuthGate>
+      <FavoritesProvider>
+        <Stack screenOptions={{ headerShown: false }}>
         <Stack.Screen name="(tabs)" />
         <Stack.Screen name="seller/[sellerId]" />
         <Stack.Screen name="booking/[sellerId]/product-select" />
@@ -19,7 +21,8 @@ export default function BuyerLayout() {
         <Stack.Screen name="reviews/index" />
         <Stack.Screen name="notifications/index" />
         <Stack.Screen name="notifications/[notificationId]" />
-      </Stack>
-    </FavoritesProvider>
+        </Stack>
+      </FavoritesProvider>
+    </BuyerAuthGate>
   );
 }

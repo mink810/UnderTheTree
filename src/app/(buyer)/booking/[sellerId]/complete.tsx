@@ -1,5 +1,5 @@
-import BookingCompleteScreen from '@/features/booking/screens/BookingCompleteScreen';
+import BUY014Screen from '@/features/booking/screens/BUY014Screen';
 
 export default function CompleteRoute() {
-  return <BookingCompleteScreen />;
+  return <BUY014Screen />;
 }

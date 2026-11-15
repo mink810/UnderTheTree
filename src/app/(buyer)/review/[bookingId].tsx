@@ -1,5 +1,5 @@
-import ReviewScreen from '@/features/review/screens/ReviewScreen';
+import BUY023Screen from '@/features/review/screens/BUY023Screen';
 
 export default function BookingIdRoute() {
-  return <ReviewScreen />;
+  return <BUY023Screen />;
 }

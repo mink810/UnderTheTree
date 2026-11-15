@@ -1,5 +1,5 @@
-import DiscoveryHomeScreen from '@/features/discovery/screens/DiscoveryHomeScreen';
+import BUY001Screen from '@/features/discovery/screens/BUY001Screen';
 
 export default function HomeRoute() {
-  return <DiscoveryHomeScreen />;
+  return <BUY001Screen />;
 }

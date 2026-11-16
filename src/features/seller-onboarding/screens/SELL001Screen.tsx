@@ -11,9 +11,10 @@ import {
   SafeAreaView,
   useSafeAreaInsets,
 } from 'react-native-safe-area-context';
-import { useRouter } from 'expo-router';
+import { useRouter, type Href } from 'expo-router';
 
 import { COLORS } from '@/constants/colors';
+import { goBackOrReplace } from '@/features/navigation/goBackOrReplace';
 
 import OnboardingNotice from '../components/OnboardingNotice';
 import OnboardingStepIndicator from '../components/OnboardingStepIndicator';
@@ -68,7 +69,7 @@ export default function SELL001Screen() {
     <SafeAreaView style={styles.container} edges={['top']}>
       <View style={styles.header}>
         <Pressable
-          onPress={() => router.back()}
+          onPress={() => goBackOrReplace(router, '/test-entry' as Href)}
           style={styles.headerSide}
           hitSlop={8}
         >

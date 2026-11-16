@@ -47,14 +47,10 @@ export async function runAppBootstrap(): Promise<BootstrapResult> {
       return { kind: 'force_update' };
     }
 
-    const loggedIn = await authSessionService.isLoggedIn();
     await delayRemainingSplash(startedAt);
 
-    if (loggedIn) {
-      return { kind: 'success', nextHref: '/home' };
-    }
-
-    return { kind: 'success', nextHref: '/login' };
+    /** 임시: 스플래시 직후 테스트 진입 화면 (운영 시 세션 분기로 복구) */
+    return { kind: 'success', nextHref: '/test-entry' };
   } catch {
     await delayRemainingSplash(startedAt);
     return {
